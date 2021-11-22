@@ -31,11 +31,11 @@
                 <label for="finishDate">Fecha de devolución</label>
                 <input type="date" id="finishDate">
             </div>
-            <button id = "postReservation">Guardar!</button>
+            <button id = "postReservation" onabort="postReservation()">Guardar!</button>
         </div>
         <div>
             <h3>Lista de Reservas</h3>
-            <button id = "getReservations"> Consultar</button> 
+            <button id = "getReservations" onclick="getReservations()"> Consultar</button> 
             <table>
                 <thead>
                     <tr>
