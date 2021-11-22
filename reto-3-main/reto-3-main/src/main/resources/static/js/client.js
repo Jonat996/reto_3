@@ -1,4 +1,4 @@
-const BASE_URL           = "http://129.90.15.35:80/"
+const BASE_URL           = "http://129.151.112.184:80/"
 const URL_CLIENT = BASE_URL + "api/Client/"
 
 
